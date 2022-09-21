@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to bottom right,#FFE6F7,70%,#FAF4B7);
+
+    padding: 40px;
+    min-height: 10vh;
+}
+#root{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /*justify-content: space-around;*/
+    gap:20px;
+    flex-wrap: wrap;
+
+}

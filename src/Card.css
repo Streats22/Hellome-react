@@ -1,0 +1,51 @@
+
+body{
+    font-family: sans-serif;
+
+}
+article{
+    width: 400px;
+    height: 400px;
+    background: #eee;
+    border-radius: 5px;
+    box-shadow: 0 20px 55px 0 rgba(0,0,0,0.4);
+    transition: 0.4s;
+
+}
+
+article:hover {
+    transform: scale(1.1);
+}
+@media screen and (max-width 1000px)
+{
+    article:hover{
+        transform: none;
+    }
+}
+
+article header{
+    height: 35%;
+    background: black;
+    color: #eeeeee;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+article header h2{
+    font-size: 220%;
+    font-weight: 300;
+
+
+}
+article section{
+    padding: 15px;
+    background: white;
+    height: 65%;
+    display: flex;
+    align-items: center;
+
+}
